@@ -210,9 +210,15 @@ function getRatings(titles) {
         }
         if(notFound!=0)
           {
-            var g = '<p>Sorry could not find ' + notFound + ' Movies.I am working on making it efficient.</p>'
+            var g = '<p class="err">Sorry could not find ' + notFound + ' Movies.I am working on making it efficient.</p>'
             $(".not").html(g);
           }
+        else
+        {
+           var g = '<p class="success">Success</p>'
+            $(".not").html(g);
+        }
+
     });
 
 
