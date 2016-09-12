@@ -22,12 +22,12 @@ table {
     margin-top: 100px;
 }
 
-.not err {
+.err {
     color: red;
     text-align: center;
 }
 
-.not success{
+.success{
 	color: green;
     text-align: center;	
 }
