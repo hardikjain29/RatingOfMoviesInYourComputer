@@ -208,8 +208,11 @@ function getRatings(titles) {
                 notFound++;
             }
         }
-        var g = '<p>Sorry could not find ' + notFound + ' Movies.I am working on making it efficient.</p>'
-        $(".not").html(g);
+        if(notFound!=0)
+          {
+            var g = '<p>Sorry could not find ' + notFound + ' Movies.I am working on making it efficient.</p>'
+            $(".not").html(g);
+          }
     });
 
 
