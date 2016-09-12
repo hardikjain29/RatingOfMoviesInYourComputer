@@ -1,0 +1,33 @@
+body{
+}
+
+h5,h4{
+	text-align: center;
+}
+h4{
+	margin-top: 50px;
+}
+h5{
+	margin-top: 40px;
+}
+input{
+	margin-left: 45%;
+	margin-top: 50px;
+}
+
+
+table{
+	margin-top: 100px;
+}
+
+.not p{
+	color: red;
+	text-align: center;
+}
+
+.gi{
+	text-align: center;
+	float: center;
+	margin-top: 50px;
+	margin-left: 45%;
+}

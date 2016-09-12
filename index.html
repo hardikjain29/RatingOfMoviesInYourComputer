@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get Rating</title>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="config.js"></script>
+</head>
+<body>
+<h4>Confused which movies to watch from your PC?</h4>
+<h5>Upload your files and watch movies in the order of their Rating.</h5>
+<input type="file" id="FileUpload" onchange="selectFolder(event)" webkitdirectory mozdirectory msdirectory odirectory directory multiple />
+<div class="container">
+
+	<div class="not">	
+	</div>
+
+	<table class="responsive-table">
+        <thead>
+          <tr>
+              <th data-field="id">S.No.</th>
+              <th data-field="name">Poster</th>
+              <th data-field="price">Title</th>
+              <th data-field="price">Year</th>
+              <th data-field="price">Duration</th>
+              <th data-field="price">Genre</th>
+              <th data-field="price">Plot</th>
+              <th data-field="price">IMDB Rating</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          
+        </tbody>
+      </table>
+</div>
+</body>
+</html>
