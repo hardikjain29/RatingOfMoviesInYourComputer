@@ -1,0 +1,71 @@
+
+.brand-logo{
+    font-size: 25px !important;
+    margin-left:40px;
+}
+
+.none{
+    display: none;
+    text-align: center !important;
+}
+.card{
+    width:180px;
+    height:180px;
+}
+.col{
+    padding-left: 75px !important;
+}
+.play{
+    width: 20%;
+    height: 20%;
+}
+.container{
+    margin-top: 25px;
+}
+h6,
+h4 {
+    text-align: center;
+}
+
+h4 {
+    margin-top: 50px;
+}
+
+h6 {
+    margin-top: 40px;
+    color:#80cbc4;
+}
+
+input {
+    margin-left: 45%;
+    margin-top: 50px;
+}
+
+table {
+    margin-top: 100px;
+}
+
+.err {
+    color: red;
+    text-align: center;
+}
+
+.success{
+	color: green;
+    text-align: center;	
+}
+
+.gi {
+    text-align: center;
+    float: center;
+    margin-top: 50px;
+    margin-left: 45%;
+}
+.brand-logo{
+    text-decoration: none;
+    color: white !important;
+}
+a{
+    color: #1a237e !important;
+    text-decoration: underline;
+}
